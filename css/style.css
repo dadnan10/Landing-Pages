@@ -226,3 +226,42 @@ footer {
     background-color: #333;
     color: white;
 }
+
+
+@media (max-width: 768px) {
+  .service-cards,
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+  }
+
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .project2,
+  .project3,
+  .project4 {
+    position: static;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
